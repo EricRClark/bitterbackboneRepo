@@ -1,0 +1,30 @@
+{
+  "name": "bitterbackbone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node_modules/.bin/serve",
+    "watch": "node_modules/.bin/serve & node_modules/.bin/node-sass styles/styles.scss styles/styles.css -w & node_modules/.bin/watchify main.js -o bundle.js",
+    "bundle": "node_modules/.bin/browserify main.js -o bundle.js",
+    "watch": "node_modules/.bin/node-sass styles/styles.scss styles/styles.css -w & node_modules/.bin/watchify main.js -o bundle.js",
+   "start": "npm run watch & npm run serve"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "backbone": "^1.3.2",
+    "jquery": "^2.2.1",
+    "node-sass": "^3.4.2",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "backbone": "^1.3.2",
+    "browserify": "^13.0.0",
+    "jquery": "^2.2.1",
+    "node-sass": "^3.4.2",
+    "underscore": "^1.8.3",
+    "watchify": "^3.7.0"
+}
+}
