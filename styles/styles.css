@@ -1,0 +1,17 @@
+body {
+  background-color:yellow;
+
+}
+header > img {
+  padding-bottom: 10%;
+  height: 275px;
+  background-repeat: repeat-x;
+
+ }
+ * input button {
+   text-align: center;
+   height: 20px;
+ }
+h1 {
+   text-align: center;
+}
