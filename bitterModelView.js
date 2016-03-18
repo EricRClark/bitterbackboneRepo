@@ -5,7 +5,7 @@ var _ = require('underscore');
 module.exports = Backbone.View.extend({
   tagName: 'article',
   template: _.template(tmpl.bitterTemplate),
-  editTemplate: _.template(tmpl.editPost),
+  // editTemplate: _.template(tmpl.editPost),
 
 
 initialize: function () {
